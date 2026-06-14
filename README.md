@@ -1,4 +1,4 @@
-# Sistema de Trámites Documentarios
+# Sistema de Trámites Documentarios para la Alcaldía Juan Germán Roscio en el Área de Catastros. Venezuela, estado Guárico - San Juan de los Morros (2024 - 2026)
 
 Aplicación web para la gestión, registro, seguimiento y administración de trámites documentarios institucionales. Desarrollada en **PHP**, **MySQL/MariaDB**, **AdminLTE**, **jQuery** y **DataTables**.
 
@@ -65,8 +65,8 @@ Aplicación web para la gestión, registro, seguimiento y administración de tr�
    - Edición de remitente, documento, áreas, tipo y estado.
 
 4. **Modo oscuro**
-   - Toggle para alternar entre modo claro y oscuro en el panel administrativo.
-   - Icono de luna/sol en la navbar para cambiar tema.
+   - Toggle para alternar entre el modo claro y oscuro en el panel administrativo.
+   - Icono de luna/sol en la navbar para cambiar de tema.
    - Preferencia guardada en localStorage para persistencia entre sesiones.
    - Estilos oscuros aplicados a toda la interfaz: tarjetas, tablas, formularios, modales, sidebar, paginación, etc.
 
@@ -75,18 +75,18 @@ Aplicación web para la gestión, registro, seguimiento y administración de tr�
 
 6. **Modo oscuro en páginas públicas**
    - Agregado modo oscuro en `registrar.php` y `seguimiento.php`.
-   - Toggle de modo oscuro en navbar con persistencia en localStorage.
+   - Toggle de modo oscuro en la navbar con persistencia en localStorage.
    - Estilos oscuros aplicados a toda la interfaz de estas páginas.
 
 7. **Eliminación de footer en páginas públicas**
-   - Eliminado footer con mensaje en `seguimiento.php`.
+   - Eliminado el footer con mensaje en `seguimiento.php`.
 
 8. **Logo dinámico en páginas públicas**
-   - Cambiado logo estático por logo dinámico de la empresa en `registrar.php` y `seguimiento.php`.
-   - Logo cargado desde base de datos usando `model_empresa.php`.
+   - Cambiado el logo estático por el logo dinámico de la empresa en `registrar.php` y `seguimiento.php`.
+   - Logo cargado desde la base de datos usando `model_empresa.php`.
 
 9. **Actualización de textos institucionales**
-   - Login: Texto principal cambiado a "Sistema de Catastros - Tramites. Alcaldia Juan German Roscio".
+   - Login: Texto principal cambiado a "Sistema de Catastros - Trámites. Alcaldía Juan Germán Roscio".
    - Páginas públicas: Texto de navbar cambiado a "Sistema de Catastros".
 
 10. **Eliminación mejorada** (cambio anterior)
@@ -121,7 +121,7 @@ tramites/
 
 ## Usuario de prueba
 
-Tras importar la base de datos puede usar (si existe en su BD):
+Tras importar la base de datos puede usar este usuario administrador para probar las funcionalidades:
 
 - **Usuario:** JESUS
 - **Contraseña:** 123456
@@ -131,7 +131,7 @@ Tras importar la base de datos puede usar (si existe en su BD):
 
 - Los archivos adjuntos de trámites se almacenan en `controller/tramite/documentos/`.
 - Al eliminar un área con trámites históricos como origen/destino, el sistema lo bloquea para preservar la trazabilidad.
-- Tras cambiar imágenes en Configuración, recargue con **Ctrl + F5** para ver los cambios.
+- Tras cambiar las imágenes en Configuración, recargue con **Ctrl + F5** para ver los cambios.
 
 ---
 
